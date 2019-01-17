@@ -1,0 +1,9 @@
+*.~bpr
+*.bpr
+*.res
+*.~cpp
+*.~dfm
+*.~h
+*.dfm
+img
+snd
