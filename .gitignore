@@ -7,3 +7,6 @@
 *.dfm
 img
 snd
+*.obj
+*.tds
+*.exe
