@@ -22,6 +22,12 @@ __published:	// IDE-managed Components
         TTimer *leftPaddleDown;
         TTimer *rightPaddleUp;
         TTimer *rightPaddleDown;
+        TLabel *pointLeft;
+        TLabel *pointRight;
+        TLabel *hits;
+        TButton *nextRound;
+        TButton *newGame;
+        TLabel *score;
         void __fastcall timerBallTimer(TObject *Sender);
         void __fastcall leftPaddleUpTimer(TObject *Sender);
         void __fastcall leftPaddleDownTimer(TObject *Sender);
@@ -31,6 +37,8 @@ __published:	// IDE-managed Components
           TShiftState Shift);
         void __fastcall FormKeyUp(TObject *Sender, WORD &Key,
           TShiftState Shift);
+        void __fastcall newGameClick(TObject *Sender);
+        void __fastcall nextRoundClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
         __fastcall TForm1(TComponent* Owner);
